@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'BalooBhai2';
+    src: url("/public/fonts/BalooBhai2-VariableFont_wght.woff2") format('woff2'),
+    url("/public/fonts/BalooBhai2-VariableFont_wght.woff") format('woff'),
+    url("/public/fonts/BalooBhai2-VariableFont_wght.otf") format('truetype')
+  }
+  .Background {
+    background-color:red;
+  }
+  .CardTitle {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'BalooBhai2';
+    font-weight: bold;
+    text-align: center;
+  }
+  .CardText {
+    font-size: 12px;
+    font-family: 'BalooBhai2';
+    text-align: center;
+  }
+  .CardText2 {
+    font-size: 20px;
+    font-family: 'BalooBhai2';
+    font-weight: bold;
+    text-align: center;
+  }
+  .CardDiv {
+    width: '12rem';
+    height: '10rem';
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .TaxiCardTable {
+    width: 100%;
+  }
+  .TaxiCardUl {
+    list-style:none;
+  }
+  
+  .TaxiCardLi {
+    float: left;    
+  }

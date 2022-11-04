@@ -4,3 +4,25 @@
   url("/public/fonts/BalooBhai2-VariableFont_wght.woff") format('woff'),
   url("/public/fonts/BalooBhai2-VariableFont_wght.otf") format('truetype')
 }
+
+.MenuUl {
+  background-color: transparent;
+  list-style:none;
+  margin: 0;
+  padding-left:10;
+  font-size: 14px;
+  font-family: 'BalooBhai2';
+  font-weight: bold;
+}
+
+.MenuLi {
+  background-color: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  border : 0;
+  float: left;
+}
+
+.MenuLink {
+  text-decoration: 'none';
+}

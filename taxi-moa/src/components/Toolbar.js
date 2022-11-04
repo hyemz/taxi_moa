@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Toolbar.module.css';
+import ToolbarMenu from './ToolbarMenu';
 import { Link } from 'react-router-dom';
 
 function Toolbar() {
@@ -8,19 +9,10 @@ function Toolbar() {
         <td><img className={styles.LogoImage} alt="Logo" src="img/Logo.png"/></td>
         <td><h className={styles.Title}>TaxiMoa</h></td>
         <td>
-          <ul>
-            <li>
-              <Link to="/">홈</Link>
-            </li>
-            <li>
-              <Link to="/about">소개</Link>
-            </li>
-          </ul>
+          <ToolbarMenu/>
         </td>
       </tr>
-      
     </div>
-
 }
 
 export default Toolbar;
