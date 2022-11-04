@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'BalooBhai2';
+  src: url("/public/fonts/BalooBhai2-VariableFont_wght.woff2") format('woff2'),
+  url("/public/fonts/BalooBhai2-VariableFont_wght.woff") format('woff'),
+  url("/public/fonts/BalooBhai2-VariableFont_wght.otf") format('truetype')
+}
+.Background {
+  background: rgb(252, 252, 210);
+  padding: 10px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+
+.LogoImage {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.Title {
+  color: #ffc100;
+  vertical-align: middle;
+  font-size: 25px;
+  font-family: 'BalooBhai2';
+  font-weight: bold;
+
+}
+.CardTitle {
+  font-size: 23x;
+  font-family: 'BalooBhai2';
+  font-weight: bold;
+}
+.CardText {
+  font-size: 12px;
+  font-family: 'BalooBhai2';
+}
+.CardText2 {
+  font-size: 20px;
+  font-family: 'BalooBhai2';
+  font-weight: bold;
+  text-align: left;
+}
+.CardDiv {
+  width: '10rem';
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid rgb(61, 53, 53);
+}
+
+ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+  border : 0;
+  float: left;
+  
+}
+
+Link {
+  box-sizing: border-box;
+	display: block;
+	padding: 4px 8px;
+	margin: 0 auto;
+	text-align: center;
+  
+}

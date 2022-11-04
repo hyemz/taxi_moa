@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'BalooBhai2';
+  src: url("/public/fonts/BalooBhai2-VariableFont_wght.woff2") format('woff2'),
+  url("/public/fonts/BalooBhai2-VariableFont_wght.woff") format('woff'),
+  url("/public/fonts/BalooBhai2-VariableFont_wght.otf") format('truetype')
+}
