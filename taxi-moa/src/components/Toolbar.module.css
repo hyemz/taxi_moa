@@ -6,28 +6,18 @@
 }
 .Background {
   background: rgb(252, 252, 210);
-  padding: 10px;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
+  padding: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   vertical-align: middle;
-  
 }
 
 .LogoImage {
-  height: 50px;
+  height: 40px;
   margin-left: 10px;
   margin-right: 10px;
   vertical-align: middle;
 }
-.Title {
-  color: #ffc100;
-  vertical-align: middle;
-  font-size: 25px;
-  font-family: 'BalooBhai2';
-  font-weight: bold;
-
-}
-
 
